@@ -1,1 +1,27 @@
-YOUTUBE LINK:  https://youtu.be/SIcjuWLtGi0
+"""
+📺 YouTube Link
+===============
+
+Watch the project demonstration and explanation on YouTube:
+
+🎬 Project Video: https://youtu.be/SIcjuWLtGi0
+
+Click the link above to view the video tutorial and walkthrough.
+"""
+
+# YouTube Link Reference
+YOUTUBE_LINK = "https://youtu.be/SIcjuWLtGi0"
+
+# Function to open YouTube link
+def open_youtube_link():
+    """Open the YouTube video in default browser"""
+    import webbrowser
+    webbrowser.open(YOUTUBE_LINK)
+
+if __name__ == "__main__":
+    print("📺 YouTube Project Link")
+    print("=" * 40)
+    print(f"🎬 Video: {YOUTUBE_LINK}")
+    print("=" * 40)
+    # Uncomment below to automatically open the link
+    # open_youtube_link()
